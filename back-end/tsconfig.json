@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                 
+    "moduleResolution": "node",
+    "baseUrl": "./",                     
+    //"rootDir": "./src",                       
+    "outDir": "./dist",                                 
+    "forceConsistentCasingInFileNames": true,         
+    "strict": true,                                   
+    "skipLibCheck": true,
+    "paths": {
+      "@common-models": ["../common/models/common.models"],
+      "@common-constants": ["../common/models/common.constants"]
+    }                      
+  },
+  "exclude": [
+    "./node_modules"
+  ]
+}
